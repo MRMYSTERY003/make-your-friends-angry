@@ -10,7 +10,7 @@ import time
 path = 'user-data-dir=C:\\Users\\YOUR USER NAME\\App Data\\Local\\Google\\Chrome\\User Data\\automation' ## DONT FORGET TO ENTER THE USER NAME HERE
 o = wb.ChromeOptions()
 o.add_argument(path)
-driver = wb.Chrome('C:\\Users\\kamat\\Desktop\\python projrcts\\pythonProject\\chromedriver.exe', options = o) ## ENTER THE PATH OF THE WEBDRIVER INSTALLED
+driver = wb.Chrome('WEBDRIVER PATH ', options = o) ## ENTER THE PATH OF THE WEBDRIVER INSTALLED
 driver.get('https://web.whatsapp.com')
 
 print('----------'*5)
